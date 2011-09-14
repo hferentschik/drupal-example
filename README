@@ -9,6 +9,9 @@ Quickstart
     $ cd drupal
     $ git remote add upstream -m master git://github.com/openshift/drupal-example.git
     $ git pull -s recursive -X theirs upstream master
+    note: if you named your application something other than 'drupal' make sure to edit
+          php/sites/default/settings.php and modify the database to match the name
+          of your application.
 4) Then push the repo upstream
     $ git push
 5) That's it, you can now checkout your application at:
