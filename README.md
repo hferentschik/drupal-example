@@ -36,7 +36,7 @@ Then push the repo upstream
     git push
 
 That's it, you can now checkout your application at:
-    http://drupal-$yourlogin.rhcloud.com
+    http://drupal-$yournamespace.rhcloud.com
 
 Default Admin Username: Admin
 Default Password: OpenShiftAdmin
