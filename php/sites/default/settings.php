@@ -182,7 +182,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'drupal',
+      'database' => $_ENV['OPENSHIFT_APP_NAME'],
       'username' => $_ENV['OPENSHIFT_DB_USERNAME'],
       'password' => $_ENV['OPENSHIFT_DB_PASSWORD'],
       'host' => $_ENV['OPENSHIFT_DB_HOST'],
