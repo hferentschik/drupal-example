@@ -4,8 +4,9 @@ Drupal on OpenShift Express
 This git repository helps you get up and running quickly w/ a Drupal installation
 on OpenShift Express.  The backend database is MySQL and the database name is the
 same as your application name (using $_ENV['OPENSHIFT_APP_NAME']).  You can name
-your application whatever you want.  However, the name of the database will always
-match the application so you might have to update .openshift/action_hooks/build.
+your application whatever you want.  However, per default the name of the database
+will always match the application so you might have to update *.openshift/action_hooks/deploy*
+and *php/sites/default/settings.php*.
 
 
 Running on OpenShift
